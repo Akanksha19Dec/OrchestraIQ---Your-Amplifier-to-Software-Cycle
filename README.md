@@ -5,7 +5,7 @@ OrchestraIQ is an enterprise-grade AI-powered web application designed to intell
 ## Features
 
 - **Integration Hub Setup**: Seamless configuration interface for Jira Cloud, Confluence, and Azure DevOps integration.
-- **LLM Bridging**: Direct integration with local and cloud Large Language Models (Ollama, GROQ, Grok) built seamlessly into the browser interface without needing an explicit external backend.
+- **LLM Bridging**: Direct integration with local and cloud Large Language Models (Ollama, GROQ) built seamlessly into the browser interface without needing an explicit external backend.
 - **Requirement Fetching & Context Synthesis**:
   - Deep-link Jira sequence fetching or Manual JSON proxy abstraction.
   - Multi-source contextual attachment uploading (PRD Documents, Error Logs, and visual observation references).
