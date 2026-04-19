@@ -45,7 +45,9 @@ export const FetchReq: React.FC = () => {
           description: state.fetchReq.additionalContext || 'Generated from attachments.',
           type: 'Story',
           status: 'Open',
-          subtasks: []
+          subtasks: [],
+          comments: [],
+          rawJson: {}
         };
       }
       setFetchedRequirement(result);
