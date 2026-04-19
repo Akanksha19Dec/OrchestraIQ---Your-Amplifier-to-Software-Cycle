@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../context/AppContext';
-import { Cloud, Link as LinkIcon, FileText, CheckCircle2, Settings, Loader2, AlertCircle, UploadCloud, File, Image, Trash2 } from 'lucide-react';
+import { Cloud, Link as LinkIcon, FileText, CheckCircle2, Loader2, AlertCircle, UploadCloud, File, Image, Trash2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { fetchRequirement } from '../tools/jiraService';
 
@@ -40,7 +40,6 @@ export const FetchReq: React.FC = () => {
       } else {
         // Fallback or "manual" requirement if only attachments/context provided
         result = {
-          id: 'manual-' + Date.now(),
           key: 'CTX-' + Math.floor(Math.random() * 1000),
           title: 'Custom Context Document',
           description: state.fetchReq.additionalContext || 'Generated from attachments.',
