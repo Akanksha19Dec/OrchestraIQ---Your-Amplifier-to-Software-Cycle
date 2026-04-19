@@ -74,6 +74,7 @@
    ```bash
    npm run build
    ```
+   *The application is already live at ` https://orchestraiq.vercel.app/`.*
    *Compiles the TypeScript application into the `/dist` folder for static deployment.*
 
 ---
