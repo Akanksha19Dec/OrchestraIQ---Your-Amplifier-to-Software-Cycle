@@ -1,0 +1,17 @@
+JIRA Heading -->Password Strength Indicator for Registration
+
+Description
+
+Given:A user is registering and enters a password containing valid special characters like '+' or '~' (e.g., 'SecurePass+2026~').
+
+When:The strength indicator evaluates the password.
+
+Expected Outcome:The indicator should recognize '+' and '~' as valid special characters and upgrade the password strength to 'Strong'.
+
+Actual Outcome:The indicator stays at 'Weak' and displays a tool-tip saying 'Must include a special character'.
+
+Logs (error screenshot):[Warning] Password doesn't meet special character policy. Frontend regex used: /[!@#$%^&*]/
+
+Root Cause:The validation Regex for special characters is too restrictive and only includes a small subset of keyboard symbols ([!@#$%^&*]), missing many valid and commonly used symbols.
+
+Possible Fix:Expand the Regex to accept a broader range of standard special characters, e.g., /[!@#$%^&*()_+\\-=\\[\\]{};':"\\\\|,.<>\\/?]/.

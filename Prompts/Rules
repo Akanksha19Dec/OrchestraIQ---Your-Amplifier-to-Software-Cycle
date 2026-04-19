@@ -1,0 +1,11 @@
+Deliverable ->User Story,Testplan,Test Strategy ,  Automation Code
+Content for the deliverable -->JIRA or Confluence,Document attached(txt,pdf,excel),Additional input text field
+Format -> For template follow the default template (show it in fetch requirement Tab) as attached "Default Test plan/User Story/Test Strategy Template" Unless newly uploaded via Upload template feature
+Note ->There must be atleast one content available to produce the output .In case of more than one content create output based on all of them .
+
+Deliverable->Bug
+Content for the deliverable ->Logs , screenshots , JIRA , Additional input text field
+Format ->For template follow the default template (show it in fetch requirement Tab) as attached "Default Bug" Unless newly uploaded via Upload template feature
+Note ->For bugs make sure Logs ,s creenshots and additional text field are available to produce the Bug .the JIRA ID must be the Story against which the bug is created can be optional
+
+Hence in order to map this up , we need to create an feature to upload attcahment (Now this can be a Poject requiremnet document for user story , Logs and screenshots which are mandatory for creating Bug) Do mention.Fail Bug creation if Logs and screenshots not uploaded

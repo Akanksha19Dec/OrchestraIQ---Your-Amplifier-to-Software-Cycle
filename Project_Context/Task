@@ -1,0 +1,17 @@
+CHALLENGE BRIEF:
+
+Build a Web Application called "Test Orchestrator" with following features:
+
+✅ Core Features Required:
+
+1️⃣ Jira Integration - Fetch User Stories directly from Jira
+
+2️⃣ User Story Generator - Create enterprise level User Stories based on given template
+
+3️⃣ Auto Test Plan Generation - Create comprehensive test plans based on fetched user stories and subtasks
+
+4️⃣ Smart Test Case Creation - Automatically generate test cases from user story requirements
+
+5️⃣ Output Dashboard- Display all generated deliverable(User Story / Test Plan / Test Case) in a clean, organized list
+
+6️⃣ Code Generator - When user selects any test case, It Should Create Automation Code of selenium Or Playwright

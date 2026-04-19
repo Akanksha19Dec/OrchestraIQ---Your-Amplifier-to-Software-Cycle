@@ -1,0 +1,48 @@
+Tab 1 --> SetUp
+
+Two Category 
+
+LLM connection --  > In these settings, you also need to give me the connection of LLM connection, which means we can also add an LLM related to Ollama, related to GROQ, Grok also. 
+
+JIRA/Confluence  Connection -- >  In these settings , you need to select a connection to fetch the information from 
+
+At the end it should have a ave and  test connection button also to save and  test the connection .
+
+Refer image "TP_001.png" , "TP_002.png"
+
+
+Tab 2 --> Fetch Requirement
+
+
+In this page show the connection as given in example "TP_003".png and have option to change 
+
+Have below fields in the page to select 
+
+1.JIRA id or Confluence Link to fetch the project Context .
+
+2.and a text box field to add any additional information (Optional)
+
+3.and an option to add an existing template or an existing JIRA to refer from for the deliverable to generate(story/test plan/test case)
+
+Tab 3 --> Generate
+
+This page must tell what to generate from the Content fetch from previous stage :
+
+1.Drop Down Button thet has :
+
+User Story with sub task(if needed)
+Test Plan
+Test Strategy
+Test Cases in Zephyr style
+Automation code 
+
+have a generate button at the end 
+
+Tab 4 --> Confirm
+
+This page lets you review the output content and update it if required .Update must be given in a text box and have button say "Apply" .
+
+Tab 5 --> Deliverables
+
+This is a Dashboard that tells keeps all of the outputs generated so far in nice presentable way .If nothing generated yet say as in image "TP_005.jpg"
+
